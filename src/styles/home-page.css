@@ -1,0 +1,24 @@
+ .home-page-heading {
+      text-align: center;
+    }
+    .project-ul {
+      max-width: 600px;
+      margin: 2rem auto;
+      padding: 0;
+      list-style: none;
+    }
+    .project-li {
+      background: white;
+      margin: 1rem 0;
+      padding: 1rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .project-link {
+      text-decoration: none;
+      color: #0077cc;
+      font-weight: bold;
+    }
+    .project-link:hover {
+      text-decoration: underline;
+    }

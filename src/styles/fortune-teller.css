@@ -1,0 +1,30 @@
+
+
+.fortune-form {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    display: block;
+}
+.fortune-button {
+    padding: 5px;
+    width: 100%;
+}
+.fortune-label {
+    width: 100%;
+    padding: 5px;
+}
+.fortune-input {
+    width: 100%;
+    padding: 5px;
+    color: blue;
+    font-size: 1.1rem;
+}
+
+/* desktop devices (portrait and landscape) */
+@media only screen and (min-width: 1441px) {
+   .fortune-button {
+    padding: 5px;
+    width: 250px;
+    margin: 0 auto 20px auto;
+}
+}
