@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js' // Added Bootstrap JS
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/javascript">
+    <BrowserRouter basename="/javascript-projects">
       <App />
     </BrowserRouter>    
   </StrictMode>,
