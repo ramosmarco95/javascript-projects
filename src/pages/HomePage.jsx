@@ -9,6 +9,9 @@ export default function HomePage () {
             <ul className='project-ul'>
                 <li className='project-li'>
                     <Link className='project-link' to="/fortune-teller-page">01 - Fortune Teller Page</Link>
+                </li>
+                <li className='project-li'>
+                    <Link className='project-link' to="/floating-bubbles-canvas">02 - Floating Bubbles Canvas</Link>
                 </li>                
             </ul>
         </>

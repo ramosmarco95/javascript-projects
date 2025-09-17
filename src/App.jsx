@@ -2,12 +2,13 @@
 import './App.css'
 import { Routes, Route } from 'react-router-dom';
 
-/* pages */
+/* componenets */
 import HomePage from './pages/HomePage';
 
-/* components */
+/* pages */
 import Header from './components/Header';
 import FortuneTeller from './pages/FortuneTellerPage';
+import FloatingBubblesCanvas from './pages/FloatingBubblesCanvas';
 
 
 function App() {
@@ -28,6 +29,13 @@ function App() {
             <>
               <Header/>
               <FortuneTeller/>
+            </>
+          }>            
+          </Route>
+          <Route path='/floating-bubbles-canvas' element={
+            <>
+              <Header/>
+              <FloatingBubblesCanvas/>
             </>
           }>            
           </Route>

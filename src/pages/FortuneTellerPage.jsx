@@ -52,6 +52,22 @@ export default function FortuneTeller () {
 
     return (
         <>
+            <section class="project-description">
+                <h2>Fortune Teller App</h2>
+                <p>
+                    This project demonstrates how JavaScript can be used to generate random outcomes and update the user interface dynamically. 
+                    The app uses an array of fortune messages and the <code>Math.random()</code> function to select one at random each time the 
+                    button is clicked. React’s <code>useState</code> hook stores the selected fortune and updates the input field in real time 
+                    without refreshing the page.
+                </p>
+                <ul>
+                    <li>Random fortune selection using <code>Math.random()</code></li>
+                    <li>Array of fun and quirky fortune messages</li>
+                    <li>Dynamic UI updates with React <code>useState</code></li>
+                    <li>Prevents default form refresh for a smooth experience</li>
+                </ul>
+            </section>
+
             <div className="container-fluid fortune-container">
                 <form onSubmit={getFortune} className="fortune-form">
                     <button type="submit" className='fortune-button'>Look Your Fortune</button>
