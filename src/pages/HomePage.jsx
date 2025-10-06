@@ -12,6 +12,9 @@ export default function HomePage () {
                 </li>
                 <li className='project-li'>
                     <Link className='project-link' to="/floating-bubbles-canvas">02 - Floating Bubbles Canvas</Link>
+                </li>
+                <li className='project-li'>
+                    <Link className='project-link' to="https://chimerical-puppy-b36ffe.netlify.app/">03 - Offline Habit Tracker</Link>
                 </li>                
             </ul>
         </>
