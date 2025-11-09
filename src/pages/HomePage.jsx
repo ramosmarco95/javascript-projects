@@ -20,7 +20,7 @@ export default function HomePage () {
                     <Link className='project-link' to="https://img-optimizer.netlify.app/">04 - Image Optimizer & MetaData Stripper</Link>
                 </li> 
                 <li className='project-li'>
-                    <Link className='project-link' to="#">05 - Real Time Kanban (Project Management Tool)...Coming Soon</Link>
+                    <Link className='project-link' to="https://ramosmarco95.github.io/real-time-kanban/">05 - Real Time Kanban (Project Management Tool)</Link>
                 </li>               
             </ul>
         </>
